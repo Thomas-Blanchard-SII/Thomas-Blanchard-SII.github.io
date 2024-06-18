@@ -1,1 +1,9 @@
 <p i18n="@@headerLabel">Flocon Vert, the label for committed destinations</p>
+
+<div class="lang-picker">
+    <div *ngFor="let locale of locales">
+      <a href="/{{ locale.localeCode }}/">
+        {{ locale.label }}
+      </a>
+    </div>
+</div>

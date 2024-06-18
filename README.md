@@ -32,3 +32,12 @@ Run
 ng extract-i18n --output-path src/locale --format=json
 to create src/locale/messages.json with current ids, then update src/locale/messages.fr.json and src/locale/messages.en.json with said ids.
 
+## github pages
+
+ng deploy -> chose github pages then
+ng build --output-path docs --base-href https://thomas-blanchard-sii.github.io
+
+then https://thomas-blanchard-sii.github.io/browser/en/
+
+check deploy status https://github.com/Thomas-Blanchard-SII/Thomas-Blanchard-SII.github.io/actions
+
