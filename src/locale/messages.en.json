@@ -1,0 +1,11 @@
+{
+  "locale": "en",
+  "translations": {
+    "approach": "The approachInJson",
+    "destinations": "Destinations",
+    "actions": "Actions",
+    "login": "Login",
+    "contact": "Contact",
+    "headerLabel": "Flocon Vert, the label for committed destinations"
+  }
+}
