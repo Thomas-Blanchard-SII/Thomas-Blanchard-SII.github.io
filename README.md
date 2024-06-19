@@ -34,10 +34,11 @@ to create src/locale/messages.json with current ids, then update src/locale/mess
 
 ## github pages
 
-ng deploy -> chose github pages then
-ng build --output-path docs --base-href https://thomas-blanchard-sii.github.io
+Do not checkout the gh-pages branch, it will be updated by script.   
+Update main branch or other as usual, then run
 
-then https://thomas-blanchard-sii.github.io/browser/en/
+ng build   
+npx angular-cli-ghpages --dir=dist/flocon-vert/browser
 
+then https://thomas-blanchard-sii.github.io/fr/ will be updated after a few minutes   
 check deploy status https://github.com/Thomas-Blanchard-SII/Thomas-Blanchard-SII.github.io/actions
-
