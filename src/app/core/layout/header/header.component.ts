@@ -16,7 +16,7 @@ interface Locale {
 export class HeaderComponent {
 
   locales: Locale[] = [
-    { localeCode: 'en', label: 'English' },
-    { localeCode: 'fr', label: 'Français' },
+    { localeCode: 'en', label: 'EN' },
+    { localeCode: 'fr', label: 'FR' },
   ];
 }
