@@ -2,7 +2,7 @@
 
 <div class="lang-picker">
     <div *ngFor="let locale of locales">
-      <a href="/browser/{{ locale.localeCode }}/">
+      <a href="/{{ locale.localeCode }}/">
         {{ locale.label }}
       </a>
     </div>
