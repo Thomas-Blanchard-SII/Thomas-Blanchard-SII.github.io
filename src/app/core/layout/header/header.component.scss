@@ -6,3 +6,23 @@
 #header p {
     margin: 10px;
 }
+
+#header #photo {
+    position: absolute;
+    z-index: -1;
+}
+
+.background-image {
+    object-fit: contain;
+    height: 30vw;
+    width: 100vw;
+    max-width: 1200px;   
+}
+
+#header-label {
+    z-index: 1;
+}
+
+#header-logo {
+    z-index: 2;
+}

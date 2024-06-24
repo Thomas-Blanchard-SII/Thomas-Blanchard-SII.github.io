@@ -1,5 +1,11 @@
 <div id="header">
-  <p i18n="@@headerLabel">Flocon Vert, the label for committed destinations</p>
+
+<div style="width: 500px;"></div>
+
+<div id="header-logo">
+  <img [src]="logo" />
+  <img [src]="logoText" />
+</div>
 
   <p>Menu</p>
 
@@ -9,5 +15,12 @@
           {{ locale.label }}
         </a> |
       </span>
-    </p>
+  </p>
+
+  <div id="photo">
+    <img class="background-image" fill [src]="photo" />
+  </div>
+
+  <p id="header-label" i18n="@@headerLabel">Flocon Vert, the label for committed destinations</p>
+
 </div>
