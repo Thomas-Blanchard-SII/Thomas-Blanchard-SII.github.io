@@ -7,6 +7,7 @@
     "login": "Login",
     "contact": "Contact",
     "rightTextFooter": "A project supported by Mountain Raiders",
-    "headerLabel": "Flocon Vert, the label for committed destinations"
+    "headerLabel": "Flocon Vert, the label for committed destinations",
+    "headerDestinationLabel": "I choose my destination "
   }
 }
