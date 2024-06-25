@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && cp src/index_root.html dist/flocon-vert/browser/",
+    "build": "ng build && cp src/index_root.html dist/flocon-vert/browser/index.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:flocon-vert": "node dist/flocon-vert/server/server.mjs"

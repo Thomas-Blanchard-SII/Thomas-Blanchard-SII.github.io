@@ -37,7 +37,7 @@ to create src/locale/messages.json with current ids, then update src/locale/mess
 Do not checkout the gh-pages branch, it will be updated by script.   
 Update main branch or other as usual, then run
 
-ng build   
+npm run build   
 npx angular-cli-ghpages --dir=dist/flocon-vert/browser
 
 then https://thomas-blanchard-sii.github.io/fr/ will be updated after a few minutes   
