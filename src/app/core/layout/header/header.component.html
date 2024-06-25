@@ -7,11 +7,11 @@
   <img [src]="logoText" />
 </div>
 
-  <p>Menu</p>
+  <p id="menu">MENU</p>
 
   <p class="lang-picker">
       <span *ngFor="let locale of locales">
-        <a href="/{{ locale.localeCode }}/">
+        <a (click)="currentLocale = locale" [ngStyle]="{'font-weight': currentLocale === locale ? 'bold' : 'normal'}" href="/{{ locale.localeCode }}/">
           {{ locale.label }}
         </a> |
       </span>
