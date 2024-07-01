@@ -11,7 +11,7 @@
 
   <p class="lang-picker">
       <span *ngFor="let locale of locales">
-        <a (click)="currentLocale = locale" [ngStyle]="{'font-weight': currentLocale === locale ? 'bold' : 'normal'}" href="/{{ locale.localeCode }}/">
+        <a [ngStyle]="{'font-weight': currentLocale === locale.localeCode ? 'bold' : 'normal'}" href="/{{ locale.localeCode }}/">
           {{ locale.label }}
         </a> |
       </span>

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgOptimizedImage } from '@angular/common';
-import { Router } from '@angular/router';
+import { LOCALE_ID, Inject } from '@angular/core';
 
 interface Locale {
   localeCode: string;
@@ -22,16 +22,12 @@ export class HeaderComponent {
     { localeCode: 'fr', label: 'FR' },
   ];
 
-  href: string = "";
+  
+  constructor(
+    @Inject(LOCALE_ID) public locale: string
+  ){}
 
-  constructor(private router: Router) {}
-
-  ngOnInit() {
-        this.href = this.router.url;
-        console.log(this.router.url);
-  }
-
-  currentLocale = this.locales[1];
+  currentLocale = this.locale;
 
   logo = 'header-logo.svg';
   logoText = 'header-logo-text.svg';
