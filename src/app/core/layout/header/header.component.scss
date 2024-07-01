@@ -24,8 +24,6 @@
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50% );
-    text-align: center;
-    font-weight: bold;
 }
 
 #header-logo {
@@ -46,4 +44,15 @@
 
 #menu {
     color: grey;
+}
+
+.squared {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px 3px; 
+}
+
+.bold {
+    font-weight: bold;
 }
