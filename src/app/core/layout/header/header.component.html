@@ -3,8 +3,8 @@
 <div style="width: 32vw;"></div>
 
 <div id="header-logo">
-  <img [src]="logo" />
-  <img [src]="logoText" />
+  <img [src]="logo" width="50" height="50" sizes="(max-width: 768px) 10vw, 10vw" />
+  <img [src]="logoText" width="50" height="50" sizes="(max-width: 768px) 10vw, 10vw"/>
 </div>
 
   <p id="menu">MENU</p>
@@ -18,7 +18,7 @@
   </p>
 
   <div id="photo">
-    <img class="background-image" fill [src]="photo" />
+    <img class="background-image" fill [src]="photo" width="50" height="50" sizes="(max-width: 768px) 10vw, 10vw" />
     <div id="caption">
       <p id="header-label" i18n="@@headerLabel">Flocon Vert, the label for committed destinations</p>
       <a i18n="@@headerDestinationLabel">I choose my destination </a><span >&gt;</span>
