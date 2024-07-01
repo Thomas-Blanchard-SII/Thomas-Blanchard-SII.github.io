@@ -7,9 +7,7 @@
     "login": "Me connecter",
     "contact": "Contact",
     "rightTextFooter": "Un projet porté par l'association Mountain Raiders",
-    "headerLabel1": "Flocon Vert,",
-    "headerLabel2": " le label ",
-    "headerLabel3": "des destinations engagées",
+    "headerLabel": "{$START_TAG_STRONG}Flocon Vert,{$CLOSE_TAG_STRONG} le label {$START_TAG_STRONG}des destinations engagées{$CLOSE_TAG_STRONG}",
     "headerDestinationLabel": "Je choisis ma destination "
   }
 }

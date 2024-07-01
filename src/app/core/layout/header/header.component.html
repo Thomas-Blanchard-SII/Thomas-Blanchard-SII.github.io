@@ -7,7 +7,7 @@
   <img [src]="logoText" width="50" height="50" sizes="(max-width: 768px) 10vw, 10vw"/>
 </div>
 
-  <p id="menu">MENU</p>
+  <p id="menu">MENU </p>
 
   <p class="lang-picker">
       <span *ngFor="let locale of locales">
@@ -20,7 +20,7 @@
   <div id="photo">
     <img class="background-image" fill [src]="photo" width="50" height="50" sizes="(max-width: 768px) 10vw, 10vw" />
     <div id="caption">
-      <p id="header-label"><strong i18n="@@headerLabel1" class="blod">Flocon Vert,</strong><span i18n="@@headerLabel2"> the label </span><br/><strong i18n="@@headerLabel3" class="blod">for committed destinations</strong></p>
+      <p id="header-label" i18n="@@headerLabel"><strong class="blod">Flocon Vert,</strong> the label <strong class="blod">for committed destinations</strong></p>
       <a i18n="@@headerDestinationLabel">I choose my destination </a><span class="squared">&gt;</span>
     </div>
   </div>
