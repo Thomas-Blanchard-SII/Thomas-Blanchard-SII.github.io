@@ -11,13 +11,12 @@
 <script>
 
 const sites = {
-'fr': window.location.href + 'fr/',
-'en': window.location.href + 'en/',
+'fr': window.location.href + '/fr/',
+'en': window.location.href + '/en/',
 };
 
-var userLang = navigator.language || navigator.userLanguage;
-console.log('userLang:' + userLang);
-userLang !== undefined ? userLang : 'fr'
+var userLang = navigator.language || navigator.userLanguage; 
+userLang = (userLang === 'fr' || userLang === 'en') ? userLang : 'fr';
 window.location.href = sites[userLang];
 </script>
 </body>
