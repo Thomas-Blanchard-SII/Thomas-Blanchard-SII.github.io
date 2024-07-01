@@ -15,7 +15,8 @@ const sites = {
 'en': window.location.href + 'en/',
 };
 
-const userLang = navigator.language || navigator.userLanguage;
+var userLang = navigator.language || navigator.userLanguage;
+userLang !== undefined ? userLang : 'fr/'
 window.location.href = window.location.href + sites[userLang];
 </script>
 </body>
