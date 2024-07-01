@@ -12,10 +12,11 @@
 
 const sites = {
 'fr': window.location.href + '/fr/',
-'en': window.location.href + 'en/',
+'en': window.location.href + '/en/',
 };
 
-const userLang = navigator.language || navigator.userLanguage;
+var userLang = navigator.language || navigator.userLanguage; 
+userLang = (userLang === 'fr' || userLang === 'en') ? userLang : 'fr';
 window.location.href = sites[userLang];
 </script>
 </body>
